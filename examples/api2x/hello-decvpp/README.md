@@ -1,21 +1,21 @@
 # `hello-decvpp` Sample
 
-This sample shows how to use the Intel® Video Processing Library (Intel® VPL) 2.X common API to
+This sample shows how to use the IntelÂ® Video Processing Library (IntelÂ® VPL) 2.X common API to
 perform simple video decode with fused VPP.
 
 | Optimized for    | Description
 |----------------- | ----------------------------------------
 | OS               | Ubuntu* 20.04/22.04; Windows* 10
-| Hardware         | Compatible with Intel® VPL GPU implementation, which can be found at https://github.com/intel/vpl-gpu-rt 
-|                  | and Intel® Media SDK GPU implementation, which can be found at https://github.com/Intel-Media-SDK/MediaSDK
-| What You Will Learn | How to use Intel® VPL to perform fused decode + frame processing from an H.265 encoded video file
+| Hardware         | Compatible with IntelÂ® VPL GPU implementation, which can be found at https://github.com/intel/vpl-gpu-rt 
+|                  | and IntelÂ® Media SDK GPU implementation, which can be found at https://github.com/Intel-Media-SDK/MediaSDK
+| What You Will Learn | How to use IntelÂ® VPL to perform fused decode + frame processing from an H.265 encoded video file
 | Time to Complete | 5 minutes
 
 
 ## Purpose
 
 This sample is a command line application that takes a file containing an H.265
-video elementary stream as an argument, decodes it and vpp the  output with Intel® VPL, and writes the decode output to a the file `dec_out.raw` in raw native format and the two vpp outputs to "vpp_640x480_out.raw" in raw native format and "vpp_128x96_out.raw" in raw BGRA format.
+video elementary stream as an argument, decodes it and vpp the  output with IntelÂ® VPL, and writes the decode output to a the file `dec_out.raw` in raw native format and the two vpp outputs to "vpp_640x480_out.raw" in raw native format and "vpp_128x96_out.raw" in raw BGRA format.
 
 Native raw frame format: GPU=NV12.
 
@@ -36,7 +36,7 @@ Code samples are licensed under the MIT license.
 ## Building the `hello-decvpp` Program
 
 ### Include Files
-The Intel® VPL include folder is located at these locations on your development system:
+The IntelÂ® VPL include folder is located at these locations on your development system:
  - Windows: <vpl_install_dir>\include 
  - Linux: <vpl_install_dir>/include
 
@@ -60,7 +60,7 @@ Perform the following steps:
    ```
    source <vpl_install_dir>/etc/vpl/vars.sh
    ```
-   Here `<vpl_install_dir>` represents the root folder of your Intel® VPL
+   Here `<vpl_install_dir>` represents the root folder of your IntelÂ® VPL
    installation.  If you customized the
    installation folder, it is in your custom location.
 
@@ -84,7 +84,7 @@ Perform the following steps:
 1. Install prerequisites. To build and run the sample you need to
    install prerequisite software and set up your environment:
 
-   - Follow the steps in [install.md](https://github.com/intel/libvpl/blob/master/INSTALL.md) to install Intel® VPL package.
+   - Follow the steps in [install.md](https://github.com/intel/libvpl/blob/master/INSTALL.md) to install IntelÂ® VPL package.
    - Visual Studio 2022
    - [CMake](https://cmake.org)
 
@@ -92,7 +92,7 @@ Perform the following steps:
    ```
    <vpl_install_dir>\etc\vpl\vars.bat
    ```
-   Here `<vpl_install_dir>` represents the root folder of your Intel® VPL
+   Here `<vpl_install_dir>` represents the root folder of your IntelÂ® VPL
    installation. If you customized the installation
    folder, the `vars.bat` is in your custom location.  Note that if a
    compiler is not installed you should run in a Visual

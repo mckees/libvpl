@@ -1,18 +1,18 @@
 # `hello-transcode` Sample
 
-This sample shows how to use the Intel® Video Processing Library (Intel® VPL) 2.X API to
+This sample shows how to use the IntelÂ® Video Processing Library (IntelÂ® VPL) 2.X API to
 perform simple video transcode.
 
 | Optimized for    | Description
 |----------------- | ----------------------------------------
 | OS               | Ubuntu* 20.04; Windows* 10
-| Hardware         | Compatible with Intel® VPL GPU implementation, which can be found at https://github.com/intel/vpl-gpu-rt
-| What You Will Learn | How to use Intel® VPL to transcode a MJPEG encoded video file to H.265 encoded video file
+| Hardware         | Compatible with IntelÂ® VPL GPU implementation, which can be found at https://github.com/intel/vpl-gpu-rt
+| What You Will Learn | How to use IntelÂ® VPL to transcode a MJPEG encoded video file to H.265 encoded video file
 | Time to Complete | 5 minutes
 
 ## Purpose
 
-This sample is a command line application that takes a file containing a JPEG video elementary stream as an argument, decodes it, and encodes the output with Intel® VPL and writes the encoded output to the file `out.h265` in H.265 format.
+This sample is a command line application that takes a file containing a JPEG video elementary stream as an argument, decodes it, and encodes the output with IntelÂ® VPL and writes the encoded output to the file `out.h265` in H.265 format.
 
 
 ## Key Implementation details
@@ -34,7 +34,7 @@ Code samples are licensed under the MIT license.
 
 ### Include Files
 
-The Intel® VPL include folder is located at these locations on your development system:
+The IntelÂ® VPL include folder is located at these locations on your development system:
 
  - Windows:<vpl_install_dir>\include
  - Linux:<vpl_install_dir>/include
@@ -59,7 +59,7 @@ Perform the following steps:
    ```
    source <vpl_install_dir>/etc/vpl/vars.sh
    ```
-   Here <vpl_install_dir> represents the root folder of your Intel® VPL installation. If you customized the installation folder, it is in your custom location.
+   Here <vpl_install_dir> represents the root folder of your IntelÂ® VPL installation. If you customized the installation folder, it is in your custom location.
 
 3. Build the program using the following commands:
    ```
@@ -80,7 +80,7 @@ Perform the following steps:
 
 1. Install prerequisites. To build and run the sample you need to install prerequisite software and set up your environment:
 
-   - Follow the steps in [install.md](https://github.com/intel/libvpl/blob/master/INSTALL.md) to install Intel® VPL package.
+   - Follow the steps in [install.md](https://github.com/intel/libvpl/blob/master/INSTALL.md) to install IntelÂ® VPL package.
    - Visual Studio 2022
    - [CMake](https://cmake.org)
 
@@ -88,7 +88,7 @@ Perform the following steps:
    ```
    <vpl_install_dir>\etc\vpl\vars.bat
    ```
-   Here <vpl_install_dir> represents the root folder of your Intel® VPL installation. If you customized the installation folder, the vars.bat is in your custom location. 
+   Here <vpl_install_dir> represents the root folder of your IntelÂ® VPL installation. If you customized the installation folder, the vars.bat is in your custom location. 
    Note that if a compiler is not installed you should run in a Visual Studio 64-bit command prompt.
 
 3. Build the program with default arguments using the following commands:

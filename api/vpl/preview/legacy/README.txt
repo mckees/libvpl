@@ -1,6 +1,6 @@
 The file preview/legacy/mfxvideo++.h is a preview implementation of "class
 MFXVideoSession" which takes advantage of API 2.0 functions of the
-Intel® Video Processing Library (Intel® VPL) for implementation selection and
+IntelÂ® Video Processing Library (IntelÂ® VPL) for implementation selection and
 session creation.
 
 Known limitations:

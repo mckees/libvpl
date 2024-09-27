@@ -1,21 +1,21 @@
 # `legacy-vpp` Sample
 
-This sample shows how to use the Intel® Video Processing Library (Intel® VPL) 1.35 common API to
+This sample shows how to use the IntelÂ® Video Processing Library (IntelÂ® VPL) 1.35 common API to
 perform simple video processing.
 
 | Optimized for    | Description
 |----------------- | ----------------------------------------
 | OS               | Ubuntu* 20.04/22.04; Windows* 10
-| Hardware         | Compatible with Intel® VPL GPU implementation, which can be found at https://github.com/intel/vpl-gpu-rt 
-|                  | and Intel® Media SDK GPU implementation, which can be found at https://github.com/Intel-Media-SDK/MediaSDK
-| What You Will Learn | How to use Intel® VPL to resize a NV12 raw video file
+| Hardware         | Compatible with IntelÂ® VPL GPU implementation, which can be found at https://github.com/intel/vpl-gpu-rt 
+|                  | and IntelÂ® Media SDK GPU implementation, which can be found at https://github.com/Intel-Media-SDK/MediaSDK
+| What You Will Learn | How to use IntelÂ® VPL to resize a NV12 raw video file
 | Time to Complete | 5 minutes
 
 
 ## Purpose
 
 This sample is a command line application that takes a file containing a raw
-native format video elementary stream as an argument, processes it with Intel® VPL
+native format video elementary stream as an argument, processes it with IntelÂ® VPL
 writes the resized output to `out.raw` in BGRA raw video format.
 
 Native raw input frame format: GPU=NV12.
@@ -56,7 +56,7 @@ Perform the following steps:
    ```
    source <vpl_install_dir>/etc/vpl/vars.sh
    ```
-   Here `<vpl_install_dir>` represents the root folder of your Intel® VPL
+   Here `<vpl_install_dir>` represents the root folder of your IntelÂ® VPL
    installation.  If you customized the
    installation folder, it is in your custom location.
 
@@ -81,7 +81,7 @@ Perform the following steps:
 1. Install prerequisites. To build and run the sample you need to
    install prerequisite software and set up your environment:
 
-   - Follow the steps in [install.md](https://github.com/intel/libvpl/blob/master/INSTALL.md) to install Intel® VPL package.
+   - Follow the steps in [install.md](https://github.com/intel/libvpl/blob/master/INSTALL.md) to install IntelÂ® VPL package.
    - Visual Studio 2022
    - [CMake](https://cmake.org)
 
@@ -89,7 +89,7 @@ Perform the following steps:
    ```
    <vpl_install_dir>\etc\vpl\vars.bat
    ```
-   Here `<vpl_install_dir>` represents the root folder of your Intel® VPL
+   Here `<vpl_install_dir>` represents the root folder of your IntelÂ® VPL
    installation. If you customized the installation
    folder, the `vars.bat` is in your custom location.  Note that if a
    compiler is not installed you should run in a Visual
